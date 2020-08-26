@@ -1,0 +1,73 @@
+{
+    "name": "TagAdminsBot",
+    "repository": "https://github.com/SkuzzyxD/TagAdminsBot",
+    "description": "A simple bot to call all admins in a Group!",
+    "keywords": [
+        "pyrogram",
+        "telegram",
+        "pyrogram bot",
+        "telegram bot",
+        "Tag Admins Bot",
+        "Tag admins telegram"
+    ],
+    "website": "https://skuzzers.xyz/",
+    "success_url": "https://t.me/Skuzzers",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP_ID fromm my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API_HASH fromm my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Your Bot API Token",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram User ID.",
+            "required": true,
+            "value": ""
+        },
+        "TMP_DIR": {
+            "description": "Temporary Directory for session, Leave it as default.",
+            "required": true,
+            "value": "./TEMP/"
+        },
+        "CHANNEL": {
+            "description": "A simple which bot will show to check for updates and help.",
+            "required": true,
+            "value": ""
+        },
+        "COMMAND_HAND_LER": {
+            "description": "Command handler for Bot, enter only 1.",
+            "required": true,
+            "value": "/"
+        },
+        "CONTACT_OWNER": {
+            "description": "Your Livegram bot, or your Username if you want people to contact you!",
+            "required": true,
+            "value": ""
+        },
+        "MESSAGE_DUMP": {
+            "description": "A Supergroup ID with which starts with -100",
+            "required": true,
+            "value": "-100"
+        },
+        "ENV": {
+            "description": "Set as True if you want to use Heroku, which means leave it as it is!",
+            "required": true,
+            "value": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
