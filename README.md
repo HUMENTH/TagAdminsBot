@@ -23,7 +23,7 @@ Does not work if Admins try to use it!
 - Rename sample_config.py to config.py in `tagadmin` folder and fill in all the variables!
 - Run the bot using `python3 -m tagadmin`
 
-If successful, bot should send a message to the `MESSAGE_DUMP` Group!
+If successful, bot should send a message to the `MESSAGE_DUMP` Group
 
 ### Copyright & License
 
